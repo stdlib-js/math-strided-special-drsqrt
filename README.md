@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import drsqrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-drsqrt@deno/mod.js';
+import drsqrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-drsqrt@v0.1.0-deno/mod.js';
 ```
 
 #### drsqrt( N, x, strideX, y, strideY )
@@ -152,7 +152,7 @@ drsqrt.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import drsqrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-drsqrt@deno/mod.js';
+import drsqrt from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-drsqrt@v0.1.0-deno/mod.js';
 
 var x = new Float64Array( 10 );
 var y = new Float64Array( 10 );
